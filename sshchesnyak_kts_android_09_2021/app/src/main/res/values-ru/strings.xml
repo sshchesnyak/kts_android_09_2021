@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Реддит</string>
+    <string name="subtext">Добро пожаловать в сообщество!</string>
+    <string name="button_text">Поехали!</string>
+</resources>
