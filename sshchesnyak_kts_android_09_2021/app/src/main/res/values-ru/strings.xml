@@ -2,4 +2,9 @@
     <string name="app_name">Реддит</string>
     <string name="subtext">Добро пожаловать в сообщество!</string>
     <string name="button_text">Поехали!</string>
+
+    <string name="login_text">Адрес электронной почты</string>
+    <string name="password_text">Пароль</string>
+    <string name="authentication_text">Войти</string>
+    <string name="helper_text">Добро пожаловать!</string>
 </resources>

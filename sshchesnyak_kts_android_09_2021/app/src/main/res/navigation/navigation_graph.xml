@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nagivation_graph"
+    app:startDestination="@id/OnBoardingFragment">
+    <fragment
+        tools:layout="@layout/fragment_onboarding"
+        android:id="@+id/OnBoardingFragment"
+        android:name="ru.iu3.sshchesnyak_kts_android_09_2021.OnBoardingPage"
+        android:label="OnBoardingFragment" >
+
+        <action
+            android:id="@+id/action_OnBoardingFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment"
+            app:popUpTo="@id/OnBoardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_authorization"
+        android:id="@+id/LoginFragment"
+        android:name="ru.iu3.sshchesnyak_kts_android_09_2021.LoginPage"
+        android:label="LoginFragment" >
+
+        <action
+            android:id="@+id/action_LoginFragment_to_MainPage"
+            app:destination="@id/MainPage"
+            app:popUpTo="@id/LoginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_main"
+        android:id="@+id/MainPage"
+        android:name="ru.iu3.sshchesnyak_kts_android_09_2021.MainPage"
+        android:label="MainPage" />
+</navigation>
