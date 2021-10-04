@@ -3,17 +3,12 @@ package ru.iu3.sshchesnyak_kts_android_09_2021
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Patterns
 import android.widget.Button
-import androidx.activity.viewModels
-import androidx.core.widget.doOnTextChanged
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.textfield.TextInputLayout
-import ru.iu3.sshchesnyak_kts_android_09_2021.model.LoginViewModel
-import timber.log.Timber
+import ru.iu3.sshchesnyak_kts_android_09_2021.models.LoginViewModel
 
 
 class LoginPage: Fragment(R.layout.fragment_authorization){
@@ -61,7 +56,7 @@ class LoginPage: Fragment(R.layout.fragment_authorization){
         })
 
         loginButton?.setOnClickListener {
-            findNavController().navigate(R.id.action_LoginFragment_to_MainPage)
+            findNavController().navigate(R.id.action_LoginFragment_to_ListPage)
         }
 
     }

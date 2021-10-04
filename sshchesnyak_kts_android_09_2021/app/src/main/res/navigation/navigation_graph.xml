@@ -23,14 +23,14 @@
         android:label="LoginFragment" >
 
         <action
-            android:id="@+id/action_LoginFragment_to_MainPage"
-            app:destination="@id/MainPage"
+            android:id="@+id/action_LoginFragment_to_ListPage"
+            app:destination="@id/ListPage"
             app:popUpTo="@id/LoginFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
         tools:layout="@layout/fragment_main"
-        android:id="@+id/MainPage"
-        android:name="ru.iu3.sshchesnyak_kts_android_09_2021.MainPage"
+        android:id="@+id/ListPage"
+        android:name="ru.iu3.sshchesnyak_kts_android_09_2021.fragments.ListFragment"
         android:label="MainPage" />
 </navigation>

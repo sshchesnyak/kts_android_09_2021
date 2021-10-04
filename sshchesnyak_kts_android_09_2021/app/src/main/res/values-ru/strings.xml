@@ -7,4 +7,9 @@
     <string name="password_text">Пароль</string>
     <string name="authentication_text">Войти</string>
     <string name="helper_text">Добро пожаловать!</string>
+
+    <string name="author_signature">Щесняк С.</string>
+    <string name="date_signature">01/01/2021</string>
+    <string name="post_title">Пример заголовка</string>
+    <string name="post_text_content">Здесь будет содержаться текст лучшей статьи в Реддите.</string>
 </resources>

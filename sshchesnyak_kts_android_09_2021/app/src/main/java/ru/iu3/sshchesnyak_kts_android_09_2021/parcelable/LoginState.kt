@@ -1,7 +1,7 @@
 package ru.iu3.sshchesnyak_kts_android_09_2021.parcelable
 
 import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
+import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class LoginState(
