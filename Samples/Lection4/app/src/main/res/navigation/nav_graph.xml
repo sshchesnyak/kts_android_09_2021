@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="studio.kts.android.school.lection4.menu.MenuFragment"
+        android:label="MenuFragment"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_errorCancelCoroutineFragment"
+            app:destination="@id/errorCancelCoroutineFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_basicCoroutinesFragment"
+            app:destination="@id/basicCoroutinesFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_userSearchFragment"
+            app:destination="@id/userSearchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basicCoroutinesFragment"
+        android:name="studio.kts.android.school.lection4.coroutines.BasicCoroutinesFragment"
+        android:label="BasicCoroutinesFragment" />
+    <fragment
+        android:id="@+id/errorCancelCoroutineFragment"
+        android:name="studio.kts.android.school.lection4.coroutines.ErrorCancelCoroutineFragment"
+        android:label="ErrorCancelCoroutineFragment" />
+    <fragment
+        android:id="@+id/userSearchFragment"
+        android:name="studio.kts.android.school.lection4.networking.ui.adapter.UserSearchFragment"
+        android:label="UserSearchFragment" />
+</navigation>
