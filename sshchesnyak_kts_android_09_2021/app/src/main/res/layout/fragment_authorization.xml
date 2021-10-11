@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
         style="@style/Title"
         android:id="@+id/textView"
@@ -27,15 +26,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
-
-
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:id="@+id/inputLogin"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:hint="@string/login_text" />
-
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,14 +45,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textLogin">
 
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inputPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="@string/password_text"
-            />
+            android:hint="@string/password_text" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

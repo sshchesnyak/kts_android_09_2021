@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lection 4</string>
+    <string name="basic_coroutines">basic coroutines</string>
+    <string name="coroutines_cancelation_error_handling">Coroutines cancelation, error handling</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="search_input_hint">Enter username</string>
+    <string name="search_button">Search</string>
+    <string name="network">Network</string>
+
+</resources>

@@ -11,5 +11,4 @@ class RedditApp: Application() {
             Timber.plant(Timber.DebugTree())
         }
     }
-
 }
